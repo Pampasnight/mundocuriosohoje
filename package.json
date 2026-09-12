@@ -12,7 +12,8 @@
   },
   "dependencies": {
     "astro": "^4.16.0",
-    "@astrojs/mdx": "^3.1.7"
+    "@astrojs/mdx": "^3.1.7",
+    "zod": "^3.23.8"
   },
   "engines": {
     "node": ">=18.0.0"
