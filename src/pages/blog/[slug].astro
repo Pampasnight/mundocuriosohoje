@@ -19,24 +19,24 @@ const isoDate = post.data.pubDate.toISOString();
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {"@type":"ListItem","position":1,"name":"Início","item":"https://meubeneficiohoje.com.br/"},
-      {"@type":"ListItem","position":2,"name":"Blog","item":"https://meubeneficiohoje.com.br/#beneficios"},
+      {"@type":"ListItem","position":1,"name":"Início","item":"https://mundocuriosohoje.com.br/"},
+      {"@type":"ListItem","position":2,"name":"Curiosidades","item":"https://mundocuriosohoje.com.br/#curiosidades"},
       {"@type":"ListItem","position":3,"name": post.data.title}
     ]
   })} />
 
   <div class="container">
-    <nav class="breadcrumb"><a href="/">Início</a> › <a href="/#beneficios">Benefícios</a> › {post.data.title}</nav>
+    <nav class="breadcrumb"><a href="/">Início</a> › <a href="/#curiosidades">Curiosidades</a> › {post.data.title}</nav>
     <article class="post">
-      <span class="kicker">{post.data.tags[0] || 'Benefícios'} • Revisado por Ana</span>
+      <span class="kicker">{post.data.tags[0] || 'Curiosidades'} • Revisado por Leo</span>
       <h1>{post.data.title}</h1>
       <p class="lead">{post.data.description}</p>
 
       <div class="autor-box">
-        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop&crop=face" alt="Ana Ribeiro - autora" width="56" height="56" loading="lazy" />
+        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=200&h=200&fit=crop&crop=face" alt="Leo Mendes - curador científico" width="56" height="56" loading="lazy" />
         <div>
-          <strong>Por {post.data.author}</strong> — Especialista em Direitos Sociais (5 anos)<br/>
-          <span>Publicado em <time datetime={isoDate}>{fmt}</time> • Atualizado em {fmt} • <span style="background:var(--amarelo);padding:2px 8px;border-radius:999px;font-weight:800;font-size:11px;color:#111">✓ Revisado por Ana</span></span>
+          <strong>Por {post.data.author}</strong> — Curador Científico (8 anos)<br/>
+          <span>Publicado em <time datetime={isoDate}>{fmt}</time> • Atualizado em {fmt} • <span style="background:var(--amarelo);padding:2px 8px;border-radius:999px;font-weight:800;font-size:11px;color:#111">✓ Revisado por Leo</span></span>
         </div>
       </div>
 
@@ -50,15 +50,14 @@ const isoDate = post.data.pubDate.toISOString();
       </div>
 
       <div class="aviso">
-        <strong>Fonte oficial:</strong> Confirme valores, calendário e regras em <a href="https://www.gov.br" target="_blank" rel="noopener">gov.br</a>. Este conteúdo é informativo e não substitui atendimento oficial.
-      </div>
+        <strong>Fontes:</strong> Conteúdo verificado em <a href="https://www.nasa.gov" target="_blank" rel="noopener">NASA</a>, <a href="https://www.bbc.com" target="_blank" rel="noopener">BBC Science</a>, <a href="https://www5.usp.br" target="_blank" rel="noopener">USP</a> e <a href="https://www.nature.com" target="_blank" rel="noopener">Nature</a>. Este conteúdo é informativo e não substitui fonte oficial.</div>
 
       <div style="margin-top:22px;display:flex;gap:10px;flex-wrap:wrap">
         {post.data.tags.map((t) => <span style="background:var(--cinza-100);border:1px solid var(--cinza-200);padding:6px 10px;border-radius:999px;font-size:12px;font-weight:600">#{t}</span>)}
       </div>
 
       <div style="margin-top:28px;border-top:1px solid var(--cinza-200);padding-top:18px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
-        <a href="/#beneficios">← Voltar para benefícios</a>
+        <a href="/#curiosidades">← Voltar para curiosidades</a>
         <a href="/contato">Dúvidas? Fale conosco →</a>
       </div>
     </article>

@@ -1,8 +1,8 @@
-# Meu Benefício Hoje — Template Astro para Blog de Benefícios e Direitos
+# Mundo Curioso Hoje — Template Astro para Blog de Benefícios e Direitos
 
 Template **Astro estático** limpo, jornalístico, **mobile-first**, **Discover-friendly** e com **Core Web Vitals verde**. Pronto para deploy na **Netlify**.
 
-**Domínio configurado:** `https://meubeneficiohoje.com.br` (`astro.config.mjs` → `site`)
+**Domínio configurado:** `https://mundocuriosohoje.com.br` (`astro.config.mjs` → `site`)
 
 ---
 
@@ -62,7 +62,7 @@ npm run preview  # preview do build
    - **Publish directory:** `dist`
    - **Node:** 20
 4. Clique em **Deploy site**. Pronto — seu site estará no ar com HTTPS automático.
-5. Em **Domain management** → **Add custom domain** → aponte `meubeneficiohoje.com.br` (adicione CNAME/ALIAS conforme instruções da Netlify).
+5. Em **Domain management** → **Add custom domain** → aponte `mundocuriosohoje.com.br` (adicione CNAME/ALIAS conforme instruções da Netlify).
 
 ### Opção B — Netlify CLI
 ```bash

@@ -3,8 +3,8 @@ title: "7 partes do corpo que você não usa para nada (e por que elas ainda exi
 description: "Do siso ao cóccix: 7 partes do corpo humano que parecem inúteis mas contam a história da evolução. Explicação em 3 minutos com fontes."
 pubDate: 2026-09-12
 author: "Leo Mendes"
-image: "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=1200&h=675&fit=crop"
-imageAlt: "Ilustração do corpo humano com 7 partes vestigiais destacadas"
+image: "/7-partes-corpo-que-voce-nao-usa-para-nada.jpg"
+imageAlt: "Ilustração das 7 partes do corpo humano vestigiais da evolução - siso, cóccix e apêndice"
 tags: ["Corpo Humano", "Evolução"]
 featured: true
 ---
