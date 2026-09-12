@@ -3,7 +3,7 @@ import mdx from '@astrojs/mdx';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://mundocuriosohoje.com.br/',
+  site: 'https://mundocuriosohoje.netlify.app/',
   integrations: [mdx()],
   output: 'static',
   compressHTML: true,

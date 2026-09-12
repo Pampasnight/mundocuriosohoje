@@ -2,5 +2,5 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://meubeneficiohoje.com.br/sitemap-index.xml
+Sitemap: https://mundocuriosohoje.netlify.app/sitemap.xml
 Host: https://meubeneficiohoje.com.br
