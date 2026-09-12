@@ -1,0 +1,15 @@
+import { defineConfig } from 'astro/config';
+import mdx from '@astrojs/mdx';
+
+// https://astro.build/config - Mundo Curioso Hoje
+export default defineConfig({
+  site: 'https://mundocuriosohoje.com.br/',
+  integrations: [mdx()],
+  output: 'static',
+  compressHTML: true,
+  vite: {
+    build: {
+      cssMinify: true
+    }
+  }
+});
