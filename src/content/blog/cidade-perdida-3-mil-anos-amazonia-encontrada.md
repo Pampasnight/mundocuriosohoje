@@ -3,7 +3,7 @@ title: "Cidade perdida de 3 mil anos é encontrada na Amazônia e intriga arque�
 description: "Arqueólogos encontraram na Amazônia uma cidade com 3 mil anos, com praças e pirâmides escondidas sob a floresta. Veja o que já sabem e por que a descoberta muda a história do Brasil."
 pubDate: 2026-09-12
 author: "Leo Mendes"
-image: "https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1200&h=675&fit=crop"
+image: "/cidade-perdida-3-mil-anos-amazonia-encontrada.jpg"
 imageAlt: "Floresta amazônica vista aérea com clareira"
 tags: ["arqueologia", "Amazônia", "história", "descoberta"]
 ---
