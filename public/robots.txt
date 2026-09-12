@@ -3,4 +3,3 @@ Allow: /
 Disallow: /admin/
 
 Sitemap: https://mundocuriosohoje.netlify.app/sitemap.xml
-Host: https://meubeneficiohoje.com.br
