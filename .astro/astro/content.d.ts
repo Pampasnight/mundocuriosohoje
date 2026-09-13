@@ -152,9 +152,23 @@ declare module 'astro:content' {
 
 	type ContentEntryMap = {
 		"blog": {
+"7-invencoes-futuro-ja-existem-2026.md": {
+	id: "7-invencoes-futuro-ja-existem-2026.md";
+  slug: "7-invencoes-futuro-ja-existem-2026";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
 "7-partes-corpo-que-voce-nao-usa-para-nada.md": {
 	id: "7-partes-corpo-que-voce-nao-usa-para-nada.md";
   slug: "7-partes-corpo-que-voce-nao-usa-para-nada";
+  body: string;
+  collection: "blog";
+  data: InferEntrySchema<"blog">
+} & { render(): Render[".md"] };
+"cidade-perdida-3-mil-anos-amazonia-encontrada.md": {
+	id: "cidade-perdida-3-mil-anos-amazonia-encontrada.md";
+  slug: "cidade-perdida-3-mil-anos-amazonia-encontrada";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
