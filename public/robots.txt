@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /admin/
 
-Sitemap: https://mundocuriosohoje.netlify.app/sitemap.xml
+Sitemap: https://mundocuriosohoje.pages.dev/sitemap.xml

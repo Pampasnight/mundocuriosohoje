@@ -159,9 +159,9 @@ declare module 'astro:content' {
   collection: "blog";
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
-"7-partes-corpo-que-voce-nao-usa-para-nada.md": {
-	id: "7-partes-corpo-que-voce-nao-usa-para-nada.md";
-  slug: "7-partes-corpo-que-voce-nao-usa-para-nada";
+"7-orgaos-inuteis-corpo-humano-por-que-evolucao-mantem-2026.md": {
+	id: "7-orgaos-inuteis-corpo-humano-por-que-evolucao-mantem-2026.md";
+  slug: "7-orgaos-inuteis-corpo-humano-por-que-evolucao-mantem-2026";
   body: string;
   collection: "blog";
   data: InferEntrySchema<"blog">
