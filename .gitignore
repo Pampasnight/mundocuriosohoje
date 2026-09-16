@@ -1,7 +1,17 @@
-﻿node_modules
-dist
-.env
-.DS_Store
+# Mundo Curioso Hoje — .gitignore
+# Site estático puro (HTML/CSS/JS) — sem build step
 
-build.log
-build_full.log
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Misc
+*.log
+.env

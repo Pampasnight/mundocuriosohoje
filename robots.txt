@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mundocuriosohoje.pages.dev/sitemap.xml
