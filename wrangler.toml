@@ -1,0 +1,13 @@
+# Wrangler configuration for Cloudflare Pages
+# For static sites, no build command is needed.
+
+[[pages]]
+project = "mundocuriosohoje"
+
+[pages.build]
+command = ""
+publish_dir = "."
+
+# Environment variables (if needed)
+# [vars]
+# API_KEY = "..."
